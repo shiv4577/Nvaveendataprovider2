@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28614" started-at="2020-05-24T12:17:58Z" finished-at="2020-05-24T12:18:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28614" started-at="2020-05-24T12:17:58Z" finished-at="2020-05-24T12:18:26Z">
+      <class name="Test1.DatProvider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1.DatProvider@271053e1]" name="setup" is-config="true" duration-ms="8707" started-at="2020-05-24T12:17:58Z" finished-at="2020-05-24T12:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test1.DatProvider@271053e1]" name="loginTest" duration-ms="399" started-at="2020-05-24T12:18:07Z" data-provider="getLogindata" finished-at="2020-05-24T12:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiv@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test1.DatProvider@271053e1]" name="teardown" is-config="true" duration-ms="601" started-at="2020-05-24T12:18:07Z" finished-at="2020-05-24T12:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1.DatProvider@271053e1]" name="setup" is-config="true" duration-ms="7531" started-at="2020-05-24T12:18:08Z" finished-at="2020-05-24T12:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test1.DatProvider@271053e1]" name="loginTest" duration-ms="339" started-at="2020-05-24T12:18:15Z" data-provider="getLogindata" finished-at="2020-05-24T12:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mo@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.89456123E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test1.DatProvider@271053e1]" name="teardown" is-config="true" duration-ms="619" started-at="2020-05-24T12:18:16Z" finished-at="2020-05-24T12:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1.DatProvider@271053e1]" name="setup" is-config="true" duration-ms="8817" started-at="2020-05-24T12:18:16Z" finished-at="2020-05-24T12:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test1.DatProvider@271053e1]" name="loginTest" duration-ms="472" started-at="2020-05-24T12:18:25Z" data-provider="getLogindata" finished-at="2020-05-24T12:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.56123789E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test1.DatProvider@271053e1]" name="teardown" is-config="true" duration-ms="613" started-at="2020-05-24T12:18:26Z" finished-at="2020-05-24T12:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test1.DatProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
